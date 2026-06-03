@@ -34,11 +34,11 @@ In this project:
 
 ## Repository Structure
 
-### site_assessment_tool.py
+### rooftop_pv_tool.py
 
 This file contains the final ArcGIS Pro implementation used to execute the rooftop solar PV suitability analysis. The script was deployed as an ArcGIS Pro Script Tool and was used to generate the outputs presented in this study.
 
-### rooftop_pv_ooad_design.py
+### rooftop_pv_ooad.py
 
 This file contains the OOAD-based object-oriented representation of the system. It demonstrates how the UML classes were translated into Python classes and how system responsibilities were organized using object-oriented principles.
 
@@ -108,19 +108,19 @@ Handles output creation, export, and reporting.
 
 ## Computational Workflow
 
-### Step 1 – Input Validation
+### Step 1 - Input Validation
 
 - Validate boundary file
 - Validate DSM raster
 - Validate output workspace
 
-### Step 2 – Boundary Processing
+### Step 2 - Boundary Processing
 
 - Convert KMZ/KML boundary
 - Project boundary
 - Prepare study area
 
-### Step 3 – Surface Model Processing
+### Step 3 - Surface Model Processing
 
 - Project DSM
 - Mosaic DSM
@@ -136,7 +136,7 @@ ArcPy Tools Used:
 - Slope
 - Aspect
 
-### Step 5 – Suitability Analysis
+### Step 5 - Suitability Analysis
 
 Suitability Rules:
 
@@ -151,7 +151,7 @@ ArcPy Tools Used:
 - Merge
 - Erase
 
-### Step 6 – Output Generation
+### Step 6 - Output Generation
 
 Generate:
 
